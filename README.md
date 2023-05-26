@@ -4,7 +4,7 @@ This is a phone catalog project built with React. It allows users to browse and 
 
 ## Demo
 
-You can see a live demo of this project [here](https://your-demo-link.com).
+You can see a live demo of this project [here]( https://gusillus.github.io/phone-catalog/).
 
 ## Technologies Used
 
