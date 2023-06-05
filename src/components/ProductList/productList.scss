@@ -1,6 +1,8 @@
 @import "../../styles/utils";
 
 .product-list {
+  margin-bottom: 84px;
+  
   &__top-row {
     margin-top: 25px;
     margin-bottom: 40px;
@@ -26,7 +28,4 @@
     margin-bottom: 40px;
   }
 
-  &__pagination {
-    margin-bottom: 84px;
-  }
 }

@@ -1,5 +1,5 @@
 import { ChangeEvent, FC, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ButtonBack } from '../../components/ButtonBack';
 import { ProductInCart } from '../../types/ProductInCart';
 import { useAppContext } from '../../context/AppContext';
@@ -268,14 +268,14 @@ export const Order: FC<Props> = ({ products }) => {
                   >
                     I acknowledge and accept the
                     {' '}
-                    <span className="order__link-des">
+                    <Link to="*" className="order__link-des">
                       Terms of Conditions
-                    </span>
+                    </Link>
                     , including the
                     {' '}
-                    <span className="order__link-des">
+                    <Link to="*" className="order__link-des">
                       Provisions on Personal Data Processing.
-                    </span>
+                    </Link>
                   </label>
                 </div>
               </div>
@@ -312,15 +312,15 @@ export const Order: FC<Props> = ({ products }) => {
             <p className="order__fieldset-sText-small-p">
               We`ll email your
               {' '}
-              <span className="order__link-des">
+              <Link to="*" className="order__link-des">
                 Terms of Conditions
-              </span>
+              </Link>
               {' '}
               and
               {' '}
-              <span className="order__link-des">
+              <Link to="*" className="order__link-des">
                 Provisions on Personal Data Processing
-              </span>
+              </Link>
               {' '}
               and payment receipt.
             </p>

@@ -31,7 +31,7 @@ export const Footer = memo(() => {
             </li>
             <li className="footer__item">
               <a
-                href="https://github.com/"
+                href="https://ivan-ivakhnenko-cv.simple.ink/"
                 target="_blank"
                 className="footer__link"
                 rel="noreferrer"
